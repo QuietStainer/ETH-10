@@ -30622,7 +30622,7 @@
         coinbaseWallet: {
           description:
             "if you're a coinbase kind of person, this one will work for you the best",
-          image: "coinbase.png",
+          image: "coinbase.svg",
         },
         walletConnect: {
           description:

@@ -15021,7 +15021,7 @@
                 }),
                 (0, _.jsx)(tL, {
                   children: (0, _.jsx)(H, {
-                    href: "https://open-bakery.gitbook.io/exit10/phases/bond",
+                    href: "https://stakestake-eth.gitbook.io/eth10_protocol/phases/bond-and-stake",
                     target: "_blank",
                     children: "Learn More",
                   }),
@@ -16404,7 +16404,7 @@
                     "The token represents a share of the liquidity locked by the bootstrappers. It can be staked to earn ETH and later burned in exchange for a portion of the protocol acquired liquidity.",
                     " ",
                     (0, _.jsx)(H, {
-                      href: "https://open-bakery.gitbook.io/exit10/phases/bootstrap",
+                      href: "https://stakestake-eth.gitbook.io/eth10_protocol/phases/bootstrap",
                       isExternal: !0,
                       children: "More details",
                     }),
@@ -33393,7 +33393,7 @@
             }),
             (0, _.jsx)(tL, {
               children: (0, _.jsx)(H, {
-                href: "https://open-bakery.gitbook.io/exit10/phases/exit",
+                href: "https://stakestake-eth.gitbook.io/eth10_protocol/phases/exit",
                 target: "_blank",
                 children: "Learn more",
               }),
@@ -38749,7 +38749,7 @@
                                 "Temporarily lock your liquidity in exchange for BOOT. Stake it for a share of transaction fees and protocol acquired liquidity. Earn ETH in real time and unlock your liquidity once ETH reaches $10K.",
                                 " ",
                                 (0, _.jsx)(H, {
-                                  href: "https://open-bakery.gitbook.io/exit10/phases/bootstrap",
+                                  href: "https://stakestake-eth.gitbook.io/eth10_protocol/phases/bootstrap",
                                   isExternal: !0,
                                   children: "Learn more.",
                                 }),
@@ -38768,7 +38768,7 @@
                                 "The Bootstrap phase kindles the fire which shall keep us warm throughout this journey. All participants will be able to claim their deposits in full after we reach our final destination.",
                                 " ",
                                 (0, _.jsx)(H, {
-                                  href: "https://open-bakery.gitbook.io/exit10/phases/bootstrap",
+                                  href: "https://stakestake-eth.gitbook.io/eth10_protocol/phases/bootstrap",
                                   target: "_blank|",
                                   children:
                                     "Learn how to become a bootstrapper.",
@@ -39713,7 +39713,7 @@
         i = n(83454);
       let a = {
           twitter: "https://twitter.com/ETH10_DEFI",
-          gitbook: "https://open-bakery.gitbook.io/exit10",
+          gitbook: "https://stakestake-eth.gitbook.io/eth10_protocol",
           discord: "https://discord.gg/aPJKJnb4z5",
           github: "https://github.com/open-bakery/exit10-protocol",
           cta: "/app",

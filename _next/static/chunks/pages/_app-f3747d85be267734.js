@@ -38716,13 +38716,11 @@
                         lg: "1fr 1fr 1fr",
                       },
                       children: [
-                        (0, _.jsx)(pj, {
+                        (0, _.jsx)(pE, {
                           gridColumn: { base: "1 / 2", md: "1 / 3" },
                         }),
-                        (0, _.jsx)(pA, {}),
                         (0, _.jsx)(pS, {}),
                         (0, _.jsx)(pC, {}),
-                        (0, _.jsx)(pE, {}),
                       ],
                     }),
                   ],

@@ -16323,7 +16323,7 @@
                           (0, _.jsxs)(eO.Tr, {
                             children: [
                               (0, _.jsx)(eL.Th, {
-                                children: "Share Of Exit Liquidity",
+                                children: "Share Of ETH10 Liquidity",
                               }),
                               (0, _.jsxs)(eI.Td, {
                                 textAlign: "right",
@@ -16945,7 +16945,7 @@
         tt = {
           bootSupply: { unit: "BOOT", title: "BOOT minted" },
           bootSupplySum: { unit: "BOOT", title: "Cummulative BOOT supply" },
-          exitPriceLast: { unit: "USD", title: "EXIT Price" },
+          exitPriceLast: { unit: "USD", title: "ETH10 Price" },
           exitSupplySum: { unit: "EXIT", title: "EXIT Supply" },
           exitRewardsSum: {
             unit: "EXIT",
@@ -16955,7 +16955,7 @@
           tvlSum: { unit: "USD", title: "TVL" },
           pendingBucketSum: { unit: "USD", title: "Pending Bucket" },
           reserveBucketSum: { unit: "USD", title: "Reserve Bucket" },
-          exitBucketSum: { unit: "USD", title: "Exit Liquidity" },
+          exitBucketSum: { unit: "USD", title: "ETH10 Liquidity" },
         },
         tn = eD().zipObject(
           Object.values(tt).map((e) => e.title),
@@ -32556,7 +32556,7 @@
                         " your Uniswap position to mint BLP.",
                         (0, _.jsx)("br", {}),
                         (0, _.jsx)("strong", { children: "Stake" }),
-                        " it to earn EXIT tokens.",
+                        " it to earn ETH10 tokens.",
                         (0, _.jsx)("br", {}),
                         (0, _.jsx)("strong", { children: "Stack" }),
                         " ETH on its journey to $10K.",
@@ -32567,8 +32567,8 @@
                       number: 3,
                       colorSchema: "brand4",
                       children: [
-                        "When ETH reaches $10K the protocol shuts down. EXIT token holders earn a share of the ",
-                        (0, _.jsx)("strong", { children: "exit" }),
+                        "When ETH reaches $10K the protocol shuts down. ETH10 token holders earn a share of the ",
+                        (0, _.jsx)("strong", { children: "ETH10" }),
                         " ",
                         "liquidity and accumulated fees.",
                       ],
@@ -32614,13 +32614,13 @@
                   title1: "Yield",
                   title2: "Seekers",
                   children:
-                    "Also known as Yield Junkies, they love to get maximum yield on their positions. They need Bootstrappers, Exit Hunters and 3 digit APRs.",
+                    "Also known as Yield Junkies, they love to get maximum yield on their positions. They need Bootstrappers, ETH10 Hunters and 3 digit APRs.",
                 }),
                 (0, _.jsx)(uo, {
-                  title1: "Exit",
+                  title1: "ETH10",
                   title2: "Hunters",
                   children:
-                    "They optimize for the end game and high returns. Hoarding EXIT tokens with their eyes locked on the final prize.",
+                    "They optimize for the end game and high returns. Hoarding ETH10 tokens with their eyes locked on the final prize.",
                 }),
               ],
             }),
@@ -32633,7 +32633,7 @@
                 (0, _.jsx)(K.x, {
                   mb: 4,
                   children:
-                    "When the next bull comes, and it will come, ETH to $10k will be the narrative. Skip the coin chasing and let this be the time you weren't someone else's exit liquidity.",
+                    "When the next bull comes, and it will come, ETH to $10k will be the narrative. Skip the coin chasing and let this be the time you weren't someone else's ETH10 liquidity.",
                 }),
                 (0, _.jsx)(K.x, {
                   mb: 4,
@@ -32725,7 +32725,7 @@
                     "Only protocol participants can earn tokens. The team and insiders can’t dump on you.",
                 }),
                 (0, _.jsx)(uc, {
-                  title: "Exit Liquidity",
+                  title: "ETH10 Liquidity",
                   colorSchema: "brand2",
                   children:
                     "The protocol is not built to run forever. All funds get distributed at the exit phase.",
@@ -33240,7 +33240,7 @@
           u = r.findIndex((e) => !e.exitPriceLast.isZero()),
           c = r.slice(u);
         return (0, _.jsxs)(tC, {
-          header: "EXIT Token",
+          header: "ETH10 Token",
           children: [
             (0, _.jsxs)(tO, {
               children: [
@@ -33260,7 +33260,7 @@
                   label: "Mint Price",
                   value: l,
                   unit: "$",
-                  note: "1000 EXIT/ETH",
+                  note: "1000 ETH10/ETH",
                   boxed: !0,
                   color: 2,
                 }),
@@ -33387,7 +33387,7 @@
                 }),
                 (0, _.jsx)(uO, {
                   children:
-                    "70% is available to be claimed by EXIT token holders.",
+                    "70% is available to be claimed by ETH10 token holders.",
                 }),
               ],
             }),
@@ -34325,29 +34325,6 @@
                     " Follow Us",
                   ],
                 }),
-                (0, _.jsxs)(H, {
-                  href: eR.Ok.discord,
-                  isExternal: !0,
-                  display: "flex",
-                  gap: 1.5,
-                  alignItems: "center",
-                  children: [
-                    (0, _.jsx)(lw.J, { as: eq.j2d, boxSize: "1.25rem" }),
-                    " Get In Touch",
-                  ],
-                }),
-                " ",
-                (0, _.jsxs)(H, {
-                  href: eR.Ok.github,
-                  isExternal: !0,
-                  display: "flex",
-                  gap: 1.5,
-                  alignItems: "center",
-                  children: [
-                    (0, _.jsx)(lw.J, { as: eq.hJX, boxSize: "1.25rem" }),
-                    " GitHub",
-                  ],
-                }),
               ],
             }),
             (0, _.jsx)(j.k, {
@@ -34374,7 +34351,7 @@
         let {} = e;
         return (0, _.jsxs)(cb(), {
           children: [
-            (0, _.jsx)("title", { children: "ΞXIT10" }),
+            (0, _.jsx)("title", { children: "ETH10" }),
             (0, _.jsx)("meta", {
               name: "description",
               content: "Ride the Ultrasound Highway",
@@ -35095,15 +35072,15 @@
                   color: 1,
                 }),
                 (0, _.jsx)(tE, {
-                  label: "Exit Earned",
+                  label: "ETH10 Earned",
                   value: nX(s),
-                  unit: "EXIT",
+                  unit: "ETH10",
                   big: !0,
                   bold: !0,
                   note: (0, _.jsxs)(_.Fragment, {
                     children: [
                       "+ ",
-                      (0, _.jsxs)("strong", { children: [nX(l), " EXIT"] }),
+                      (0, _.jsxs)("strong", { children: [nX(l), " ETH10"] }),
                       " available to claim",
                     ],
                   }),
@@ -38373,7 +38350,7 @@
                       children: (0, _.jsx)(st, {
                         sm: !0,
                         rightIcon: (0, _.jsx)(eq.Z1Y, {}),
-                        children: "Create Bond Now to earn BLP and EXITS",
+                        children: "Create Bond Now to earn BLP and ETH10S",
                       }),
                     }),
                   ],
@@ -38424,7 +38401,7 @@
           { exitPriceLast: r, exitSupply: i, exitLiquidity: a } = t;
         return (0, _.jsxs)(tC, {
           flex: 1,
-          header: "Exit",
+          header: "ETH10",
           meta: (0, _.jsx)(eV.rU, {
             to: "/app/exit",
             children: (0, _.jsx)(cV, {
@@ -38441,16 +38418,16 @@
               divide: !0,
               children: [
                 (0, _.jsx)(tE, {
-                  label: "Exit Liquidity",
+                  label: "ETH10 Liquidity",
                   value: n.gtZero() ? a.div(n) : "N/A",
                   unit: "$",
                 }),
                 (0, _.jsx)(tE, {
-                  label: "EXIT Token Price",
+                  label: "ETH10 Token Price",
                   value: r,
                   unit: "$",
                   note: (0, _.jsxs)(_.Fragment, {
-                    children: ["Supply: ", nX(i), " EXIT"],
+                    children: ["Supply: ", nX(i), " ETH10"],
                   }),
                 }),
               ],
@@ -38566,7 +38543,7 @@
           r = t.slice(n);
         return (0, _.jsx)(tC, {
           ...e,
-          header: "EXIT Price",
+          header: "ETH10 Price",
           children: (0, _.jsx)(tr, { data: r, metrics: ["exitPriceLast"] }),
         });
       }
@@ -38666,7 +38643,7 @@
               ? e.exitPriceLast.div(t.exitPriceMax).toNumber()
               : void 0;
         return (0, _.jsx)(tE, {
-          label: "EXIT Price",
+          label: "ETH10 Price",
           value: nX(n.exit),
           unit: "$",
           bold: !0,
@@ -38688,7 +38665,7 @@
         let { apr: e } = (0, L.ew)(),
           { currentMetrics: t } = (0, L.V1)();
         return (0, _.jsx)(tE, {
-          label: "EXIT FARMING APR",
+          label: "ETH10 FARMING APR",
           value: e.toString(0),
           unit: "%",
           bold: !0,
@@ -38718,7 +38695,7 @@
           children: [
             (0, _.jsxs)(ts, {
               children: [
-                "EXIT10 ",
+                "ETH10 ",
                 (0, _.jsx)(tT, { fontWeight: "thin", children: "STATS" }),
               ],
             }),
@@ -39639,11 +39616,11 @@
               button: "Add Liquidity",
               buttonDisconnected: "Connect to add ".concat(
                 i.a.symbol,
-                "/EXIT liquidity"
+                "/ETH10 liquidity"
               ),
               buttonDisabled: "Cannot add ".concat(
                 i.a.symbol,
-                "/EXIT liquidity now"
+                "/ETH10 liquidity now"
               ),
             },
             isEnabled: !0,
@@ -39735,7 +39712,7 @@
       var r = n(17109),
         i = n(83454);
       let a = {
-          twitter: "https://twitter.com/EXIT10_ETH",
+          twitter: "https://twitter.com/ETH10_DEFI",
           gitbook: "https://open-bakery.gitbook.io/exit10",
           discord: "https://discord.gg/aPJKJnb4z5",
           github: "https://github.com/open-bakery/exit10-protocol",
@@ -45151,7 +45128,7 @@
           },
           exit_lp: {
             masterchefId: "exit",
-            name: "Exit Hunters",
+            name: "ETH10 Hunters",
             mcAbi: "Masterchef",
             mcContract: "masterchefExit",
             stakeToken: "exitLp",
